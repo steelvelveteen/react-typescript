@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import logo from './logo.svg';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
