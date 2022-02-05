@@ -1,4 +1,5 @@
 import './App.scss';
+import Header from './components/Header';
 import logo from './logo.svg';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -16,9 +17,10 @@ const App = (): JSX.Element => (
       <p>
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
-      <a className="App-link" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
+      <Header title="Prop passed in" />
+      {/* <a className="App-link" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
         Learn React
-      </a>
+      </a> */}
     </header>
   </div>
 );
