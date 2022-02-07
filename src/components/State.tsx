@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 type NumberOrString = number | string;
+type Person = { name: string; surname: string; age: number };
 
 const State = (): JSX.Element => {
   const [someNumber, setSomeNumber] = useState<NumberOrString>(55);
@@ -9,7 +10,7 @@ const State = (): JSX.Element => {
 
   // Usage of useState for arrays of objects
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [people, setPeople] = useState([
+  const [people, setPeople] = useState<Person[]>([
     {
       name: 'Joey',
       surname: 'Vico',
