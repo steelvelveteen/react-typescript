@@ -39,7 +39,7 @@
     "lint:fix": "npm run lint -- --fix",
     "clean": "rm -rf node_modules/ && rm -rf package-lock.json",
     "install:clean": "npm run clean && npm run install",
-    "format": "prettier --write src/**/*.ts{,x}"
+    "prettier": "prettier --write src/**/*.ts{,x}"
   },
   "eslintConfig": {
     "extends": "react-app"
