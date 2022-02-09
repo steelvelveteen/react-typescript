@@ -1,14 +1,6 @@
 import './App.scss';
 import logo from './logo.svg';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const arrayElementNewLineEslintTest = [
-  'First element',
-  'Second element',
-  'Third element',
-  'Fourth element',
-];
-
 const App = (): JSX.Element => (
   <div className="App">
     <header className="App-header">
