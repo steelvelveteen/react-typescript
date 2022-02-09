@@ -1,8 +1,6 @@
-import './App.scss';
-import Header from './components/Header';
-import State from './components/State';
+import { Header, State } from '@components';
 
-// import logo from './logo.svg';
+import './App.scss';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const arrayElementNewLineEslintTest = [
