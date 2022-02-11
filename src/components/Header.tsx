@@ -1,6 +1,7 @@
 const yes = false;
+type PropsType = { title: string };
 
-const Header = (props: { title: string }): JSX.Element => {
+const Header = (props: PropsType): JSX.Element => {
   const { title } = props;
   return (
     <div>
