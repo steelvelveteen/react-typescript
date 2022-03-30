@@ -1,7 +1,5 @@
 import { Header, State } from '@components';
 
-import './App.scss';
-
 const App = (): JSX.Element => (
   <div className="App">
     <header className="App-header">
