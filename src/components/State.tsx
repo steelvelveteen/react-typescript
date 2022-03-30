@@ -26,9 +26,6 @@ const State = (): JSX.Element => {
   return (
     <>
       <p>{someNumber}</p>
-      {people.forEach(p => (
-        <p>{p.name}</p>
-      ))}
       {people.map(p => (
         <p>{p.name}</p>
       ))}

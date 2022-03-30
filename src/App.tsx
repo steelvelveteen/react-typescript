@@ -1,4 +1,4 @@
-import { Header, State } from '@components';
+import { Header, State } from './components';
 
 const App = (): JSX.Element => (
   <div className="App">
