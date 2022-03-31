@@ -1,4 +1,8 @@
+import React from 'react';
+
 import { Header, State } from './components';
+
+export const ThemeContext = React.createContext('lightTheme');
 
 const App = (): JSX.Element => (
   <div className="App">
@@ -6,8 +10,10 @@ const App = (): JSX.Element => (
       <p>
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
-      <Header title="Prop passed in" />
-      <State />
+      <ThemeContext.Provider value="darkTheme">
+        <Header title="Prop passed in" />
+        <State />
+      </ThemeContext.Provider>
     </header>
   </div>
 );
